@@ -10,7 +10,7 @@ def countPrimes(numbers):
     prime_count = 1
     for num in numbers:
         if isPrime(num):
-            prime_count += 1
+            prime_count += 2
     return prime_count
 
 input_str = input("Enter a list of numbers separated by space: ")
