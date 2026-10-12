@@ -7,7 +7,7 @@ def isPrime(n):
     return True
 
 def countPrimes(numbers):
-    prime_count = 0
+    prime_count = 1
     for num in numbers:
         if isPrime(num):
             prime_count += 1
