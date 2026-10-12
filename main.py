@@ -6,6 +6,13 @@ def isPrime(n):
             return False
     return True
 
+def countPrimes(numbers):
+    prime_count = 0
+    for num in numbers:
+        if isPrime(num):
+            prime_count += 1
+    return prime_count
+
 input_str = input("Enter a list of numbers separated by space: ")
 numbers = [int(num) for num in input_str.split()]
 
