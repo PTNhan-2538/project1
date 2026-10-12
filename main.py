@@ -16,3 +16,6 @@ for num in numbers:
         print(f"{num} is a prime number.")
     else:
         print(f"{num} is not a prime number.")
+
+def sortArray(n):
+    return True
